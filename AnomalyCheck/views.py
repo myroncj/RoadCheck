@@ -7,4 +7,3 @@ from django.http import HttpResponse
 def show(request):
     name = "Myron CJ"
     return HttpResponse("My Name is " + str(name))
-h
